@@ -1,4 +1,4 @@
-timer = document.getElementById("timer");
+let timer = document.getElementById("timer");
 let message = "Вы победили в конкурсе!";
 
 let timerset = setInterval(() => {

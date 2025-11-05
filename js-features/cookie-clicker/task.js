@@ -1,12 +1,12 @@
-counter = document.getElementById("clicker__counter");
-speedo = document.getElementById("clicker__speed");
-pic = document.getElementById("cookie");
+let counter = document.getElementById("clicker__counter");
+let speedo = document.getElementById("clicker__speed");
+let pic = document.getElementById("cookie");
 let scale = 30;
 
-last_click = Date.now();
+let last_click = Date.now();
 
 pic.onclick = () => {
-    new_click = Date.now();
+    let new_click = Date.now();
     speedo.textContent = 1000/(new_click - last_click);
     last_click = new_click;
     counter.textContent = Number(counter.textContent) + 1;
