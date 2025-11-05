@@ -2,7 +2,6 @@ let caught_counter = document.getElementById("dead");
 let missed_counter = document.getElementById("lost");
 
 getHole = index => document.getElementById(`hole${index}`);
-const holes = document.getElementsByClassName("holes");
 
 const clearCounters = function() {
     caught_counter.textContent = 0;
