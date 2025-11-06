@@ -27,18 +27,13 @@ class Game {
      */
 
     document.addEventListener('keydown', e => {
-      console.log(e.key);
-      console.log(this.currentSymbol.textContent);
-      console.log(e.key == this.currentSymbol.textContent);
+      this[e.key === this.currentSymbol.textContent ? 'success' : 'fail']();
 
       // if (e.key == this.currentSymbol.textContent) {
       //   this.success();
       // } else {
       //   this.fail();
       // }
-
-      this[e.key === this.currentSymbol.textContent ? 'success' : 'fail']();
-      
     });
   }
 
