@@ -11,8 +11,6 @@ const toggleTabs = (num) => {
             contents[i].classList.remove("tab__content_active");
         }
     }
-
-
 }
 
 for (let i = 0; i < buttons.length; i++) {
