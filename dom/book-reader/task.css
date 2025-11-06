@@ -10,16 +10,35 @@ body {
   background: grey;
 }
 
+.bg_color_lightgray {
+  background: lightgray;
+}
+
 .bg_color_white {
   background: white;
 }
 
-.book_fs-big {
+/* Добавлен, чтобы средний размер шрифта 
+был действительно средним и не сбивался 
+из-за настроек браузера */
+.book {
   font-size: 20px;
 }
 
+.book_fs-biggest {
+  font-size: 24px;
+}
+
+.book_fs-big {
+  font-size: 22px;
+}
+
 .book_fs-small {
-  font-size: 12px;
+  font-size: 18px;
+}
+
+.book_fs-smallest {
+  font-size: 16px;
 }
 
 .book_color-black {
@@ -30,16 +49,25 @@ body {
   color: gray;
 }
 
+.book_color-lightgray {
+  color: lightgray;
+}
+
+
 .book_color-whitesmoke {
   color: whitesmoke;
+}
+
+.book_bg-black {
+  background: black;
 }
 
 .book_bg-gray {
   background: grey;
 }
 
-.book_bg-black {
-  background: black;
+.book_bg-lightgray {
+  background: lightgray;
 }
 
 .book_bg-white {
@@ -94,12 +122,20 @@ body {
   align-items: center;
 }
 
-.font-size_small {
-  font-size: 12px;
+.font-size_biggest {
+  font-size: 20px;
 }
 
 .font-size_big {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.font-size_small {
+  font-size: 14px;
+}
+
+.font-size_smallest {
+  font-size: 12px;
 }
 
 .font-size_active {
@@ -126,6 +162,10 @@ body {
 
 .text_color_gray {
   background: grey;
+}
+
+.text_color_lightgray {
+  background: lightgray;
 }
 
 .text_color_whitesmoke {
